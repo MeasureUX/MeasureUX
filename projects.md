@@ -17,10 +17,10 @@ The first step is to check whether the data follow a normal distrubution
 
 The type of method used depends on two outcomes
 
-1. **Normally distridbuted data**  
+1. **Normally distributed data**  
    Parametric methods can be used on the data.
 
-2. **Not-normally distrubuted data**  
+2. **Not-normally distributed data**  
    Better use the laternative non-parametric tests
 
 **Tools Used**: R, RStudio
@@ -43,7 +43,7 @@ When you have to means to compare related to two tasks or two designs
 <a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
 <a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-Hierarchical Cluster Analysis is a powerful tool for open card sorting. Dendrograms are visual representations that can help with your decision.
+Hierarchical Cluster Analysis is a powerful tool for <b>open card sorting</b>. Dendrograms are visual representations that can help make a decision.
 
 **Tools Used**: R, RStudio
 
