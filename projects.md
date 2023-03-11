@@ -1,101 +1,97 @@
 ---
 layout: page
-title: Projects
-subtitle: What's been eating away my free time
+title: R Projects
+subtitle: Examples are specific to UX
 ---
 
-This is a collection of my personal projects that I work on in my free time. Hope you like them.
+Using R for UX
 
 ---
 
-## Flash
+## Checking Mean Distribution
 
-<a href="https://shan18.github.io/Flash" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
-<a href="https://github.com/shan18/Flash" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-An end-to-end Deep Learning platform that allows users to create, train, and deploy their own neural network models in a matter of minutes without writing a single line of code.
+The first step is to check whether the data follow a normal distrubution
 
-The platform supports two types of tasks:
+The type of method used depends on two outcomes
 
-1. **Image Classification**  
-   Classify images from your own dataset by using them to train a ResNet-34 or MobileNet v2 model. Training happens via transfer learning where models available will be pre-trained on the ImageNet dataset.
+1. **Normally distridbuted data**  
+   Parametric methods can be used on the data.
 
-2. **Sentiment Analysis**  
-   Predict sentiment from sentences by training a LSTM or GRU based sequential model on your own dataset. The models will be trained from scratch.
+2. **Not-normally distrubuted data**  
+   Better use the laternative non-parametric tests
 
-**Tools Used**: Python, PyTorch, JavaScript, ReactJS, Redux, AWS (Lambda, EC2, S3)
-
-<br/>
-
-## TensorNet
-
-<a href="https://pypi.org/project/torch-tensornet/" target="_blank"><img src="https://img.shields.io/badge/PyPI-9cf"></a>
-<a href="https://github.com/shan18/TensorNet" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
-
-A high-level deep learning library built on top of PyTorch to solve computer vision problems.
-
-**Tools Used**: Python, PyTorch
+**Tools Used**: R, RStudio
 
 <br/>
 
-## Topic Based Image Captioning
+## Comparing Two Means
 
-<a href="https://github.com/shan18/Topic-Based-Image-Captioning" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-An automatic image caption generation system built using Deep Learning.
+When you have to means to compare related to two tasks or two designs
 
-- Devised a novel image captioning model using CNNs and LSTMs trained on MSCOCO-2017 Dataset.
-- Created a system where LSTMs were given additional information (topics) extracted from image captions using Latent Dirichlet Allocation (LDA).
-
-**Tools Used**: Python, Tensoflow, NLTK, OpenCV
+**Tools Used**: R, RStudio
 
 <br/>
 
-## Stock Bridge
+## HCA and Dendrograms for Card Sorting
 
-<a href="https://stock-bridge.herokuapp.com" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
-<a href="https://github.com/shan18/Stock-Bridge" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-An online stock market simulator enabling users to have an experience of trading in the real-world market.
+Hierarchical Cluster Analysis is a powerful tool for open card sorting. Dendrograms are visual representations that can help with your decision.
 
-**Tools Used**: Python, Django, Django REST Framework, Bootstrap, Heroku, sendgrid
-
-<br/>
-
-## Code Warrior
-
-<a href="https://nitmz.pythonanywhere.com/" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
-<a href="https://github.com/shan18/Code-Warrior" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
-
-An online judge platform with support for languages C, C++, and Python.
-
-**Tools Used**: Python, Django, Bootstrap, Amazon Web Services, PythonAnywhere, sendgrid.
+**Tools Used**: R, RStudio
 
 <br/>
 
-## Kart
+## Between-Subjects Design: More than 2 means, one dependent variable
 
-<a href="https://shan-kart.herokuapp.com/" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
-<a href="https://github.com/shan18/Kart" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-An E-commerce website built using Django.
+TBA
 
-- Built the backend on entirely on Django. Utilized jQuery to make the website asynchronous.
-- Developed features like checkout with online payment, send order receipt via email, selling digital items e.t.c.
-
-**Tools Used**: Python, Django, Bootstrap, jQuery, Ajax, jsrender, stripe, mailchimp, Amazon Web Services, heroku, sendgrid
+**Tools Used**: R, RStudio
 
 <br/>
 
-## Autoranking Amazon Reviews
+## Within-Subjects Design: More than 2 means, one dependent variable
 
-<a href="https://github.com/shan18/Autoranking-Amazon-Reviews" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-Ranking the reviews on Amazon according to their helpfulness score.
+TBA
 
-- The problem was modeled as a regression problem. The performance was evaluated by using the coefficient of determination and rank correlation.
-- Predictions were made based on various categories of features of the review text, and other metadata associated with the review, with the purpose of generating a rank for a given list of reviews.
+**Tools Used**: R, RStudio
 
-**Tools Used**: Python, Numpy, Pandas, textblob, scikit-learn
+<br/>
+
+## Between-Subjects Design: More than 2 means, two dependent variables
+
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
+TBA
+
+**Tools Used**: R, RStudio
+
+<br/>
+
+## Within-Subjects Design: More than 2 means, one dependent variable
+
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
+TBA
+
+- TBA
+- TBA
+
+**Tools Used**: R, RStudio
 
 ---
