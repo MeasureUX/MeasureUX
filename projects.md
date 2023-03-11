@@ -32,7 +32,7 @@ The type of method used depends on two outcomes
 <a href="" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
 <a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-When you have to means to compare related to two tasks or two designs
+Comparing two tasks or two designs
 
 **Tools Used**: R, RStudio
 
