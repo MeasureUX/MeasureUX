@@ -1,7 +1,7 @@
 ---
 layout: page
 title: R Projects
-subtitle: Examples are specific to UX
+subtitle: Examples specific to UX
 ---
 
 Using R for UX
