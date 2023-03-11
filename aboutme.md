@@ -11,7 +11,15 @@ subtitle: How to Use
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-The R projects from this course are available to everyone who interested in quantitative UX, but has limited R experience. 
+The R projects from this course are available to everyone interested in quantitative UX, but has limited R experience. 
+</p>
+
+<p class="about-text">
+<span class="fa fa-heart about-icon"></span>
+Most of the R scripts use dummy data. Others have been taken from one of the following books:
+- Measuring the User Experience, by Tom Tullis and Bill Albert
+- Quantifying the User Experience, by James Lewis and Jeff Sauro
+- Research Methods in Human-Computer Interaction, by Harry Hochheiser, Jinjuan Heidi Feng, and Jonathan Lazar
 </p>
 
 <p class="about-text">
