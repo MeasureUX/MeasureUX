@@ -8,16 +8,16 @@ url: 'http://shan18.github.io'
 baseurl: ''
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+#url: "http://MouniaZiat.github.io/HF751"
+#baseurl: "/HF751"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Shantanu Acharya
+title: HF751
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Measuring the User Experience
 
 # --- Navigation bar options --- #
 
@@ -25,8 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   Projects: 'projects'
   Publications: 'publications'
-  My Resume: 'Resume.pdf'
-  About Me: 'aboutme'
+  About: 'aboutm'
   # Dropdown menu in Navbar
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
