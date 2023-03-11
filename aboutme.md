@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About HF751
+title: About
 subtitle: How to Use
 ---
 
