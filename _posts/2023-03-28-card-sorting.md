@@ -1,12 +1,15 @@
 ---
 layout: post
-title: Deploying a Django app using Nginx and uWSGI
-subtitle: Hosting django on a Linux distribution
-image: /img/deploy_django_nginx_uwsgi/logo.png
-tags: [programming, software, open source, web apps]
+title: Open Card Sorting Analysis
+subtitle: Hierarchical Cluster Analysis and Dendrograms
+tags: [R script, Card Sorting, open source]
 ---
 
-In this project we'll be hosting a django app on a Linux machine (we'll consider **Ubuntu**) using **Nginx** and **uWSGI**. Nginx is commonly used as a webserver to serve static assets such as images, CSS and JavaScript to web browser clients. Nginx is also typically configured as a reverse proxy, which passes appropriate incoming HTTP requests to a WSGI server. The WSGI server produces dynamic content by running Python code. When the WSGI server passes its response, which is often in the HTML, JSON, or XML format, the reverse proxy then responds to the client with that result.
+HCA stands for Hierarchical Cluster Analysis, which allows for identifying groups or patterns in your data. Multiple algorithms are used to group items based on their similarity. HCA is a powerful tool for open-card sorting, which can be tedious and daunting to interpret.
+
+I wrote this R script specifically for HF751 and for open-card sorting. It helps identify patterns and classify card labels into clusters using dendrograms, visual representations of the HCA.
+
+The number of clusters and the names of the final categories must be a human decision. HCA provides groupings, but you must decide on the number of groups and their names.
 
 ![Django Nginx uWSGI logo](/img/deploy_django_nginx_uwsgi/header.png)
 
