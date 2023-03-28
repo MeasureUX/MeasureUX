@@ -31,12 +31,23 @@ You need to install R and RStudio before running this script.
 The R script is divided into parts. In RStudio, select each part and click on the run button. Each part is explained below
 
 1. Part 1: LOADING AND TRANSFORM THE DATA
-This part opens the file name (in this example Raw_data_2023.csv) and putting in a datafram df to proceed with the analysis.
+This part opens the file name (in this example Raw_data_2023.csv) and putting in a dataframe df to proceed with the analysis.
+The next part of the code convert your data and obtain z-scores for your data to start the analysis
 
    ```bash
    $ df <- Raw_data_2023 # change to your file name
    $ View(df)
    $ str(df)
+   $ df2<-df[,-1] # convert the first column (food items into a no-name column)
+   $ # If you skip this part, R will try to scale this column as well and you cannot start your analysis
+   $ rownames(df2)<-df[,1]
+   $ # Provide the structure of the data. Always good to check
+   $ str(df2) # it only list the numerical data
+   $ # remove any missing points
+   $ df <- na.omit(df2)
+   $ # standardize the values to avoid an unbalance weights between categories
+   $ dfz <- scale(df)
+   $ head(dfz) # display your data headers
    ```
 
 2. Build and install dependencies
