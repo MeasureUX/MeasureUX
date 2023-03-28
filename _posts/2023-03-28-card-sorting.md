@@ -23,36 +23,20 @@ The following snapshot shows the header of a csv file for an open-card sorting a
 
 ![CSV File Header](/img/deploy_django_nginx_uwsgi/Grocery.png)
 
-  ```
-  portal
-     ├── dj
-     |   ├── __init__.py
-     |   ├── settings.py
-     |   ├── urls.py
-     |   ├── views.py
-     |   ├── wsgi.py
-     ├── static_files
-     |   ├── ...
-     |   └── ...
-     ├── media_files
-     |   ├── ...
-     |   └── ...
-     ├── manage.py
-     ├── ...
-     └── ...
-  ```
-
-For the rest of the post, replace these assumed values with your own.
-
 <br/>
 
-# Installing and Setting Up Dependencies
+# Run the R script
+You need to install R and RStudio before running this script.
 
-1. Update the ubuntu instance
+The R script is divided into parts. In RStudio, select each part and click on the run button. Each part is explained below
+
+1. Part 1: LOADING AND TRANSFORM THE DATA
+This part opens the file name (in this example Raw_data_2023.csv) and putting in a datafram df to proceed with the analysis.
 
    ```bash
-   $ sudo apt-get update
-   $ sudo apt-get upgrade
+   $ df <- Raw_data_2023 # change to your file name
+   $ View(df)
+   $ str(df)
    ```
 
 2. Build and install dependencies
