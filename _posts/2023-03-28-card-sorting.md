@@ -35,15 +35,15 @@ This part opens the file name (in this example Raw_data_2023.csv) and putting in
 The next part of the code convert your data and obtain z-scores for your data to start the analysis.
 
    ```bash
-   df <- Raw_data_2023 # change to your file name
-   View(df)
-   str(df)
-   df2<-df[,-1]
-   rownames(df2)<-df[,1]
-   str(df2)
-   df <- na.omit(df2)
-   dfz <- scale(df)
-   head(dfz)
+    df <- Raw_data_2023 # change to your file name
+    View(df)
+    str(df)
+    df2<-df[,-1]
+    rownames(df2)<-df[,1]
+    str(df2)
+    df <- na.omit(df2)
+    dfz <- scale(df)
+    head(dfz)
    ```
 
 2. PART 2: DISTANCE MATRIX
