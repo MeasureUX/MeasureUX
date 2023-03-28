@@ -17,7 +17,7 @@ The first step is to organize your data in a CSV file. You can use the following
 
 - Card labels are organized in the left most column
 - Category names are on the first row
-- For each label, enter the number of person or percentage of person that selected a specific category.
+- For each label, enter the number of users- or percentage of answers- who selected a specific category.
 
 The following snapshot shows the header of a csv file for an open-card sorting asking users to organize food items
 
