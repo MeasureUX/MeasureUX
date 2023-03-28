@@ -21,7 +21,7 @@ The first step is to organize your data in a CSV file. You can use the following
 
 The following snapshot shows the header of a csv file for an open-card sorting asking users to organize food items
 
-![Django Nginx uWSGI logo](/img/deploy_django_nginx_uwsgi/Grocery.png)
+![CSV File Header](/img/deploy_django_nginx_uwsgi/Grocery.png)
 
   ```
   portal
