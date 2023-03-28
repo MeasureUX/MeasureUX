@@ -5,7 +5,7 @@ subtitle: Hierarchical Cluster Analysis and Dendrograms
 tags: [R script, Card Sorting, open source]
 ---
 
-HCA stands for Hierarchical Cluster Analysis, which allows for identifying groups or patterns in your data. Multiple algorithms are used to group items based on their similarity. HCA is a powerful tool for open-card sorting, which can be tedious and daunting to interpret.
+HCA stands for Hierarchical Cluster Analysis, a method used for identifying groups or patterns in your data. Multiple algorithms are used to group items based on their similarity. HCA is a powerful tool for open-card sorting, which can be tedious and daunting to interpret.
 
 I wrote this R script specifically for HF751 and for open-card sorting. It helps identify patterns and classify card labels into clusters using dendrograms, visual representations of the HCA.
 
