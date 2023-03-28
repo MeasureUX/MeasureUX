@@ -11,16 +11,17 @@ I wrote this R script specifically for HF751 and for open-card sorting. It helps
 
 The number of clusters and the names of the final categories must be a human decision. HCA provides groupings, but you must decide on the number of groups and their names.
 
+## Organize your data file
+
+The first step is to organize your data in a CSV file. You can use the following file as an example.
+
+- Card labels are organized in the left most column
+- Category names are on the first row
+- For each label, enter the number of person or percentage of person that selected a specific category.
+
+The following snapshot shows the header of a csv file for an open-card sorting asking users to organize food items
+
 ![Django Nginx uWSGI logo](/img/deploy_django_nginx_uwsgi/header.png)
-
-## Assumptions
-
-For this post, we'll assume the following things
-
-- We have a fresh Ubuntu machine as well as a django app ready to deploy.
-- The username of the user in the ubuntu instance is **djuser** and it has sudo privileges.
-- The django app (directory containing the **manage.py** file) is located in the path `/deploy/portal/`.
-- The django app has the following directory structure
 
   ```
   portal
