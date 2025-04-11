@@ -16,7 +16,7 @@ The R projects from this course are available to everyone interested in quantita
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-<strong>Contributors:</strong> This course is supported by the dedicated efforts of Sara Burley, Suzanne Hillman, Yingdi Qi, Nicci Van, and Ashley Webb  
+<strong>Contributors:</strong> This course is supported by the dedicated efforts of Jessica Iannuzzi.  
 </p>
 
 <p class="about-text">
